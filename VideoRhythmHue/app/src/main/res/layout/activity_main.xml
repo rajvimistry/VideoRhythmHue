@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#212121"
+    tools:context="com.example.priyankadesai.videorhythmhue.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="472dp"
+        android:text="@string/video_rhythm_hue"
+        android:gravity="center"
+        android:textSize="72sp"
+        android:textColor="#F48FB1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/calibrateIntensityButton"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:text="@string/calibrate_intensity"
+            android:layout_margin="16dp"
+            android:background="#757575"
+            android:textColor="#EEFF41"/>
+
+        <Button
+            android:id="@+id/videoPlayerButton"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:text="@string/video_player"
+            android:layout_margin="16dp"
+            android:background="#757575"
+            android:textColor="#EEFF41"/>
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+         />
+    </LinearLayout>
+</LinearLayout>
